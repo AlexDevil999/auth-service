@@ -1,2 +1,5 @@
-package com.guavapay.authservice.service;public class UserInfoService {
+package com.guavapay.authservice.service;
+
+public interface UserInfoService {
+
 }

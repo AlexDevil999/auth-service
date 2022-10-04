@@ -1,4 +1,4 @@
-package com.guavapay.authservice.config;
+package com.guavapay.authservice.config.userdetails;
 
 
 import java.util.ArrayList;

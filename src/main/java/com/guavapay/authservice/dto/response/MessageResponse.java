@@ -1,2 +1,12 @@
-package com.guavapay.authservice.dto.response;public class MessageResponse {
+package com.guavapay.authservice.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class MessageResponse {
+    private String message;
 }
