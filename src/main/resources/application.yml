@@ -1,1 +1,23 @@
+server:
+  port: 8080
 
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/guavapay
+    username: macbook_pro
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    change-log: classpath:liquibase/master.xml
+
+
+
+# App Properties
+jwtSecret: secretKey
+jwtExpirationMs: 86400000
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html

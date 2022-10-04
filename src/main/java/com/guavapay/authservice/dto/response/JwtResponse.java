@@ -1,15 +1,16 @@
-package com.guavapay.authservice.dto;
+package com.guavapay.authservice.dto.response;
 
-import com.guavapay.authservice.entity.Role;
-import lombok.Data;
+import lombok.*;
 
 import java.util.Set;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class JwtResponse {
     private String id;
-    private String type;
     private String accessToken;
     private String username;
-    private Set<Role> roles;
+    private Set<String> roles;
 }
